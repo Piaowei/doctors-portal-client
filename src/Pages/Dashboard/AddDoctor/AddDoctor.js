@@ -17,7 +17,7 @@ const AddDoctor = () => {
         formData.append('email', email);
         formData.append('image', image);
 
-        fetch('https://still-sierra-26585.herokuapp.com/doctors', {
+        fetch('https://immense-tundra-76382.herokuapp.com/doctors', {
             method: 'POST',
             body: formData
         })

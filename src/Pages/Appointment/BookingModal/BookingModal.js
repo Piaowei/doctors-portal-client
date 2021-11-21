@@ -44,7 +44,7 @@ const BookingModal = ({ openBooking, handleBookingClose, booking, date, setBooki
             date: date.toLocaleDateString()
         }
         // send to the server
-        fetch('https://still-sierra-26585.herokuapp.com/appointments', {
+        fetch('https://immense-tundra-76382.herokuapp.com/appointments', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
